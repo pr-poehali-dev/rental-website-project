@@ -35,21 +35,6 @@
     --ring: 45 100% 51%;
 
     --radius: 0.5rem;
-
-    --sidebar-background: 220 13% 13%;
-    --sidebar-foreground: 0 0% 100%;
-    --sidebar-primary: 45 100% 51%;
-    --sidebar-primary-foreground: 220 13% 13%;
-    --sidebar-accent: 220 13% 18%;
-    --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 217 10% 25%;
-    --sidebar-ring: 45 100% 51%;
-  }
-}
-
-@layer base {
-  * {
-    border-color: hsl(var(--border));
   }
 
   body {
