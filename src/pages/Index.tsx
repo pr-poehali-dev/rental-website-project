@@ -40,6 +40,24 @@ const apartments = [
   }
 ];
 
+const galleryImages = [
+  {
+    id: 1,
+    image: 'https://cdn.poehali.dev/files/Снимок экрана 2026-01-15 185447.png',
+    alt: 'Нижегородский кремль на закате'
+  },
+  {
+    id: 2,
+    image: 'https://cdn.poehali.dev/files/Снимок экрана 2026-01-15 185433.png',
+    alt: 'Чкаловская лестница'
+  },
+  {
+    id: 3,
+    image: 'https://cdn.poehali.dev/files/Снимок экрана 2026-01-15 185412.png',
+    alt: 'Памятник Минину и Пожарскому'
+  }
+];
+
 const reviews = [
   {
     id: 1,
@@ -191,16 +209,16 @@ const Index = () => {
             Взгляните на наши интерьеры
           </p>
           <div className="grid md:grid-cols-3 gap-6 max-w-7xl mx-auto">
-            {apartments.map((apt, index) => (
+            {galleryImages.map((item, index) => (
               <div
-                key={apt.id}
+                key={item.id}
                 className="relative overflow-hidden rounded-lg cursor-pointer group animate-scale-in"
                 style={{ animationDelay: `${index * 100}ms` }}
-                onClick={() => setSelectedImage(apt.image)}
+                onClick={() => setSelectedImage(item.image)}
               >
                 <img
-                  src={apt.image}
-                  alt={`Gallery ${apt.id}`}
+                  src={item.image}
+                  alt={item.alt}
                   className="w-full h-80 object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-primary/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
