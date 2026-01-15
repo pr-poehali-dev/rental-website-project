@@ -203,10 +203,10 @@ const Index = () => {
       <section id="gallery" className="py-20 px-6">
         <div className="container mx-auto">
           <h2 className="text-5xl font-cormorant font-bold text-center mb-4 text-gold">
-            Галерея
+            Топ-места Нижнего Новгорода
           </h2>
           <p className="text-center text-foreground/60 mb-16 text-lg">
-            Взгляните на наши интерьеры
+            Исследуйте красоту исторического центра
           </p>
           <div className="grid md:grid-cols-3 gap-6 max-w-7xl mx-auto">
             {galleryImages.map((item, index) => (
