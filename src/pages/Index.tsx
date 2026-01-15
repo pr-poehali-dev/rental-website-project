@@ -17,7 +17,7 @@ const apartments = [
     area: 250,
     rooms: 4,
     price: 150000,
-    image: 'https://cdn.poehali.dev/files/Снимок экрана 2026-01-15 185447.png',
+    image: 'https://cdn.poehali.dev/projects/58d4410a-e871-439a-bcd6-3f36eed8de52/files/baf9db56-6a65-4f7c-9a39-89239b3435ae.jpg',
     description: 'Роскошный пентхаус с панорамным видом на город'
   },
   {
@@ -26,7 +26,7 @@ const apartments = [
     area: 180,
     rooms: 3,
     price: 95000,
-    image: 'https://cdn.poehali.dev/files/Снимок экрана 2026-01-15 185412.png',
+    image: 'https://cdn.poehali.dev/projects/58d4410a-e871-439a-bcd6-3f36eed8de52/files/802470ec-6549-49b5-a0b7-0714335d6b28.jpg',
     description: 'Изысканные апартаменты с дизайнерским интерьером'
   },
   {
@@ -35,7 +35,7 @@ const apartments = [
     area: 200,
     rooms: 3,
     price: 120000,
-    image: 'https://cdn.poehali.dev/files/Снимок экрана 2026-01-15 185433.png',
+    image: 'https://cdn.poehali.dev/projects/58d4410a-e871-439a-bcd6-3f36eed8de52/files/9a63ac02-af80-4e09-9949-365de09c3590.jpg',
     description: 'Эксклюзивные апартаменты премиум-класса'
   }
 ];
